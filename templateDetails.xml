@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="template" client="site" method="upgrade">
+    <name>Joomantic</name>
+    <author>Colin Neal</author>
+    <version>1.0.0</version>
+    <creationDate>2024-05-31</creationDate>
+    <description>A blank, boilerplate Joomla 4/5 template that is integrated with the Fomantic UI fork of the Semantic UI CSS framework.</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>images</folder>
+    </files>
+    <stylesheets>
+        <stylesheet>css/semantic.min.css</stylesheet>
+        <stylesheet>css/template.css</stylesheet>
+    </stylesheets>
+    <scripts>
+        <script>js/jquery.min.js</script>
+        <script>js/semantic.min.js</script>
+        <script>js/template.js</script>
+    </scripts>
+    <positions>
+        <position>menu</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>sidebar</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer-leftCol</position>
+        <position>footer-centerCol</position>
+        <position>footer-rightCol</position>
+    </positions>
+</extension>
+
